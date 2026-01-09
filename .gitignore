@@ -1,0 +1,18 @@
+# --- macOS System Files ---
+.DS_Store
+
+# --- VS Code Settings ---
+# Ignores local editor settings so they don't mess up other computers
+.vscode/
+
+# --- C++ Compiled Output ---
+# These are the files created when you run/build code. 
+# You don't want these in your repo.
+*.dSYM/
+builds/
+*.o
+*.out
+*.exe
+
+# --- Specific executables from your previous builds ---
+workshop
