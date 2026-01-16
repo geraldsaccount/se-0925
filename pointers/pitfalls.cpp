@@ -10,6 +10,7 @@ int *error1()
 void error2()
 {
     int *p = new int(5);
+    delete p;
 }
 
 void error3()
@@ -20,6 +21,6 @@ void error3()
 
 int main()
 {
-
+    cout << *error1() << endl;
     return 0;
 }

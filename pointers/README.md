@@ -16,11 +16,15 @@ Dieses Repository enthält die Übungsmaterialien für den 90-minütigen Worksho
     * **Thema**: Pointer-Arithmetik.
     * **Fokus**: Warum Arrays eigentlich nur getarnte Pointer sind und wie man mit `p++` durch den Speicher navigiert.
 
-4.  **`memory.cpp` (Phase 4: Dynamic Memory & Heap)**:
+4.  **`c_strings.cpp` (Phase 4: Die Magie des Null-Bytes)**:
+    * **Thema**: C-Style Strings (`char*`) und Textverarbeitung.
+    * **Fokus**: Verstehen, wie Strings im Speicher liegen (als Array von Characters, beendet durch `\0`) und wie man sie mittels Pointer-Arithmetik manipuliert, ohne String-Klassen zu nutzen.
+    
+5.  **`memory.cpp` (Phase 4: Dynamic Memory & Heap)**:
     * **Thema**: Manuelle Speicherverwaltung mit `new[]` und `delete[]`.
     * **Fokus**: Die Gefahr von Memory Leaks erkennen und lernen, wie man Speicher auf dem Heap korrekt anfordert und wieder freigibt.
 
-5.  **`pitfalls.cpp` (Phase 5: Das Gefahren-Quiz)**:
+6.  **`pitfalls.cpp` (Phase 5: Das Gefahren-Quiz)**:
     * **Thema**: Debugging und Code-Analyse.
     * **Fokus**: Typische C++ Fehler wie Dangling Pointer, Memory Leaks und Null-Pointer-Dereferenzierung identifizieren.
 
